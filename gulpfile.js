@@ -4,6 +4,7 @@ var imagemin = require('gulp-imagemin');
 var del = require('del');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
+var livereload = require('gulp-livereload');
 var usemin = require('gulp-usemin');
 var minifyCss = require('gulp-minify-css');
 var minifyHtml = require('gulp-minify-html');
